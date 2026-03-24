@@ -1,40 +1,34 @@
-# 🚀 Warping-AI: AI-Native Agentic Development Terminal
+# Warping AI
 
-An intelligent terminal environment that combines traditional CLI functionality with AI-powered agents to boost developer productivity.
+## Project Documentation
 
-## ✨ Features
+### Features
+- Multi-agent orchestration
+- Easy integration with OpenAI API
+- Supports TypeScript
 
-- **Multi-Agent System**: CodeAgent, DebugAgent, DevOpsAgent, and more
-- **Natural Language Processing**: Intuitive command interface
-- **Context Awareness**: Project and Git integration
-- **Interactive REPL**: Conversational agent interface
-- **Session Management**: Persistent history and preferences
-- **Extensible Architecture**: Easy to add custom agents
-- **Local & Cloud LLMs**: Support for OpenAI, local models, etc.
-
-## 🎯 Quick Commands
-
+### Installation
+1. Clone the repository:
+```bash
+git clone https://github.com/Kheshie1/Warping-AI.git
+```
+2. Navigate into the project directory:
+```bash
+cd Warping-AI
+```
+3. Install dependencies:
 ```bash
 npm install
-cp .env.example .env
-# Add OPENAI_API_KEY to .env
+```
+}
 
-npm run dev plan "Create a React authentication component"
-npm run dev debug "TypeError: Cannot read property"
-npm run dev interactive
+### Usage Examples
+- To start the application:
+```bash
+npm start
 ```
 
-## 📦 Core Components
-
-- **Agents**: BaseAgent, CodeAgent, DebugAgent, Orchestrator
-- **LLM**: OpenAI adapter with extensible provider interface
-- **Context**: Project awareness, Git integration, session management
-- **CLI**: Interactive REPL with natural language parsing
-
-## 🚧 Roadmap
-
-- [ ] ResearchAgent for documentation
-- [ ] DevOpsAgent for deployment
-- [ ] Local LLM support (Ollama, LLaMA)
-- [ ] Web UI dashboard
-- [ ] Plugin system
+### Roadmap
+- Version 1.0 - Initial Release
+- Version 1.1 - Add more agents
+- Version 1.2 - Improve error handling
